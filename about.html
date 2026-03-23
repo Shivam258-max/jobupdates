@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GovJobs Pro</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { color: #003366; text-align: center; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        button { background: #003366; color: white; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; width: 100%; font-size: 16px; }
+        button:hover { background: #002244; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Contact GovJobs Pro</h1>
+    <p>Have a question about a job notification? Fill out the form below and we will get back to you.</p>
+    
+    <form action="https://formspree.io/f/your-unique-id" method="POST">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email Address" required>
+        <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="text-decoration: none; color: #666;">← Back to Home</a>
+    </div>
+</div>
+
+</body>
+</html>
